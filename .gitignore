@@ -1,0 +1,23 @@
+# Data, weights, checkpoints: never committed
+data/
+models/
+*.pth
+*.pt
+*.pkl
+*.safetensors
+*.ckpt
+*.gguf
+
+# Python / env
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+nbs/**/tmp/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
